@@ -1,17 +1,14 @@
-﻿namespace DemoApiFive.Controllers
+﻿namespace RefitDemo.API.Controllers
 {
     using System;
-    using System.Collections.Generic;
     using System.Diagnostics;
     using System.Net.Http;
     using System.Text.Json;
     using System.Threading.Tasks;
 
-    using DemoApiFive.Models;
-
     using Microsoft.AspNetCore.Mvc;
 
-    using Refit;
+    using RefitDemo.API.Models;
 
     /// <summary>
     /// The values controller.

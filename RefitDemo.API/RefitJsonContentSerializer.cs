@@ -1,6 +1,5 @@
-﻿namespace DemoApiFive
+﻿namespace RefitDemo.API
 {
-    using System;
     using System.IO;
     using System.Net.Http;
     using System.Text;
@@ -43,7 +42,7 @@
 
         public Task<HttpContent> SerializeAsync<T>(T item)
         {
-            var json = JsonSerializer.Serialize(item, serializerOptions);
+            var json = JsonSerializer.Serialize(item, this.serializerOptions);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             return Task.FromResult((HttpContent)content);

@@ -1,10 +1,10 @@
-﻿namespace DemoApiFive
+﻿namespace RefitDemo.API
 {
     using System.Threading.Tasks;
 
-    using DemoApiFive.Models;
-
     using Refit;
+
+    using RefitDemo.API.Models;
 
     /// <summary>
     /// The UserService interface.

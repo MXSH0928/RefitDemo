@@ -1,4 +1,4 @@
-namespace DemoApiFive
+namespace RefitDemo.API
 {
     using System;
 

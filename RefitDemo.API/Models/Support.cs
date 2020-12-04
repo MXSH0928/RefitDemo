@@ -1,4 +1,4 @@
-﻿namespace DemoApiFive.Models
+﻿namespace RefitDemo.API.Models
 {
     /// <summary>
     /// The support.
