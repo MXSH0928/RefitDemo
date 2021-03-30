@@ -9,9 +9,13 @@
     using Refit;
 
     /// <summary>
-    /// SOURCE: https://marcominerva.wordpress.com/2019/11/13/json-serialization-and-deserialization-using-system-text-json-with-refit/
+    /// SOURCE:
+    /// "JSON Serialization and Deserialization using System.Text.Json with Refit"
+    /// https://marcominerva.wordpress.com/2019/11/13/json-serialization-and-deserialization-using-system-text-json-with-refit/
+    /// "Implement HTTP call retries with exponential backoff with IHttpClientFactory and Polly policies"
+    /// https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/implement-http-call-retries-exponential-backoff-polly
     /// </summary>
-    public class RefitJsonContentSerializer : IContentSerializer
+    public class RefitJsonContentSerializer
     {
         /// <summary>
         /// The serializer options.
