@@ -38,7 +38,10 @@
         /// </param>
         public UsersController(IUserService userService, IHttpClientFactory clientFactory)
         {
+            // To demo typed client
             this.userService = userService;
+
+            // To demo named client
             this.clientFactory = clientFactory;
         }
 
